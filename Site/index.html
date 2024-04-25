@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+    <a name="topo"></a><h1>Programação Web – O que é CSS</h1>
+     <h2>Pedro Pogogelski / Vinicius S. Fragoso </h2>
+    </header>
+    <nav>
+
+        <ul id="menu">
+            <li><a href="#exe">Exemplos || </a></li>
+            <li><a href="#bene">Benefícios || </a></li>
+            <li><a href="#inte">Como é integrado || </a></li>
+            <li><a href="#css3">CSS3</a></li>
+        </ul>
+
+    </nav>
+    <img src="unnamed.png" width="250px">
+    <p>Embora o CSS (Cascading Style Sheets ou Folha de Estilos em Cascata), assim como o HTML, não seja uma linguagem
+        de programação, um bom profissional da área de WebDesigner deve entender muito bem o que é CSS e como e quando
+        ele é utilizado na elaboração das páginas Web.</p>
+    <h2>O que é o CSS e por que ele existe?</h2>
+
+    <p>O CSS é uma linguagem de folhas de estilos que é utilizada para definir como os documentos escritos na linguagem
+        de marcação (HTML ou XML) devem ser apresentados em termos de formatação, de layout. Em um cenário ideal,
+        enquanto o HTML é usado para estruturar os conteúdos, o CSS é utilizado para formatá-los. Dessa forma há uma
+        enorme integração entre o HTML e o CSS.
+        <br>
+        <br>
+    No inicio da Internet, apenas o HTML era utilizado na elaboração das páginas Web, com o tempo e a necessidade de
+        mais alternativas de formatação dessas páginas, foram criadas novas tags e atributos de estilo no HTML para que
+        ele pudesse atender essas necessidades de layout, passando a cumprir tanto a função de estruturação quanto a de
+        apresentação. Porém, isto começou a criar um problema para os Web Designers pois não havia como definir um
+        padrão que se aplicasse a todas as páginas, qualquer alteração tinha que ser aplicada em cada uma delas,
+        tornando o desenvolvimento muito complexo principalmente em grandes portais.</p>
+        <a href="#topo">Voltar </a>
+    <h2><a name="exe"></a>Exemplo CSS e HTML</h2>
+
+    <p>Para solucionar essas dificuldades foi criado o CSS, que passou a ser utilizado especificamente para definir a
+        formatação de um documento e suas características de apresentação como cores, fontes, alinhamento e etc. O CSS
+        também trouxe a possibilidade de compartilhamento do formato, aonde uma mesma definição de layout pode ser
+        aplicada
+        a várias páginas, aumentando a flexibilidade e reduzindo a repetição de código. O HTML volta então à sua função
+        essencial, estruturar os conteúdos.</p>
+        <a href="#topo">Voltar </a>
+    <h3><a name="bene"></a>Principais Benefícios do CSS</h3>
+     <img src="css-3-logo-A4E6678598-seeklogo.com.png" width="100px">
+    <p>Podemos então listar as seguintes grandes vantagens da aplicação do CSS:</p>
+
+    <ul class="beneficios">
+        <li>Possibilidade do controle do layout de vários documentos a partir de um único arquivo CSS</li>
+        <li>Aplicação de layouts diferentes de acordo com o dispositivo utilizado, possibilitando o layout responsivo
+        </li>
+        <li>Possibilidade de manter a mesma formatação em diferentes navegadores</li>
+        <li>Aplicação de técnicas mais sofisticadas de desenvolvimento</li>
+        <li>Menor consumo de banda e melhor desempenho devido ao reuso do mesmo código de formatação em várias páginas
+        </li>
+
+    </ul>
+    <a href="#topo">Voltar </a>
+    <h3><a name="inte"></a>Como o CSS é integrado com o HTML?</h3>
+     <img src="icone-html-noir.png" width="170px" >
+    <p>Há diferentes maneiras de aplicar a formatação do CSS dentro do HTML, vamos a alguns exemplos bem simples:</p>
+
+    <h4>1. O Atributo Style</h4>
+    <p>Nesse caso, é utilizado o atributo Style dentro da tag Body do HTML. Por exemplo:</p>
+
+    <div >
+        <br>
+        <br>
+        &lt;html&gt;
+        <br>
+        <br>
+        &ensp;&lt;head&gt;
+        <br>
+        <br>
+        &ensp;&ensp;&lt;title&gt;Exemplo HTML CSS&lt;/title&gt;
+        <br>
+        <br>
+        &ensp;&lt;/head&gt;
+        <br>
+        <br>
+        &ensp;&lt;body style="background-color: #00BFFF;"&gt;
+        <br>
+        <br>
+        &ensp;&ensp;&lt;p&gt;Esta é uma página com fundo azul&lt;/p&gt;
+        <br>
+        <br>
+        &ensp;&lt;/body&gt;
+        <br>
+        <br>
+        &lt;/html&gt;
+        <br>
+        <br>
+    </div>
+
+    <h4>2. A Tag Style</h4>
+
+    <p>Aqui é utilizada tag CSS style para definição da formatação, não um atributo dentro da tag body.</p>
+    <div >
+        <br>
+        <br>
+    &lt;html&gt;
+    <br>
+    <br>
+    &ensp;&lt;head&gt;
+    <br>
+    <br>
+    &ensp;&ensp;&lt;title&gt;Exemplo Linguagem CSS&lt;/title&gt;
+    <br>
+    <br>
+    &ensp;&lt;style type="text/css"&gt;
+    <br>
+    <br>
+    &ensp;&lt;body&gt; {background-color: #00BFFF;}
+    <br>
+    <br>
+    &ensp;&lt;/style&gt;
+    <br>
+    <br>
+    &ensp;&lt;/head&gt;
+    <br>
+    <br>
+    &ensp;&ensp;&lt;p&gt;Este é um exemplo de página com formatação&lt;/p&gt;
+    <br>
+    <br>
+    &ensp;&lt;/body&gt;
+    <br>
+    <br>
+    &lt;/html&gt;
+    <br>
+        <br>
+</div>
+
+
+    <h4>3. Externo – Link para o arquivo CSS</h4>
+    <p>Essa é uma das opções mais utilizadas pois permite que as alterações de formatação sejam feitas uma única vez e
+        afetem várias páginas simultaneamente. Nesse modelo o documento HTML inclui um link para um outro documento CSS
+        de onde ele importa as definições de estilo.
+        <br>
+        <br>
+    exemplo.html</p>
+    <div >
+        <br>
+        <br>
+    &lt;html&gt;
+    <br>
+    <br>
+    &ensp;&lt;head&gt;
+    <br>
+    <br>
+    &ensp;&ensp;&lt;title&gt;O que é CSS&lt;/title&gt;
+    <br>
+    <br>
+    &ensp;&ensp; &lt;link rel="stylesheet" type="text/css" href="style.css" /&gt;
+    <br>
+    <br>
+    &ensp;&lt;/head&gt;
+    <br>
+    <br>
+    &ensp;&lt;body&gt;
+    <br>
+    <br>
+    &ensp;&ensp;&lt;h1&gt;Esse é um exemplo de documento HTML&lt;/h1&gt;
+    <br>
+    <br>
+    &ensp;&lt;/body&gt;
+    <br>
+    <br>
+    &lt;/html&gt;
+    <br>
+    <br>
+    style.css
+    <br>
+    <br>
+    body {
+    <br>
+    <br>
+    background-color: #00BFFF;
+    <br>
+    <br>
+    }
+
+    <br>
+    <br>
+    </div>
+    <a href="#topo">Voltar </a>
+    <h3><a name="css3"></a>E o que é CSS3?</h3>
+    <p>O CCS3 é simplesmente a versão mais atual do CSS, uma evolução. Entre outras as evoluções, ele incorpora novos
+        elementos para construir animações tanto em 2 como e 3 dimensões. Incorpora também novos mecanismos para um
+        maior controle sobre o estilo com o qual se mostram as características das páginas.</p>
+        <a href="#topo">Voltar </a>
+</body>
+
+</html>

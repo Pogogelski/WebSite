@@ -1,0 +1,134 @@
+body {background-color: blanchedalmond;}
+
+p {color: black;
+    font-size: 11pt;
+    font-family: 'Segoe UI', Tahoma;
+    font-weight: 500;
+    display: flex;
+    background-color: rgb(209, 198, 173);
+    border: 5px #000000 solid;
+    margin: auto;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    display: flex;
+    background-color: rgb(158, 132, 98);
+    border: 5px rgb(128, 93, 47) solid;
+    margin: auto;
+    justify-content: center;
+    width: 600px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+h2{
+    color: white;
+    display: flex;
+    background-color: rgb(158, 132, 98);
+    border: 5px rgb(128, 93, 47) solid;
+    margin: auto;
+    justify-content: center;
+    width: 400px;
+    height: 29px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+h3{color: white;
+    display: flex;
+    background-color:rgb(158, 132, 98);
+    border: 5px rgb(128, 93, 47) solid;
+    margin: auto;
+    justify-content: center;
+    width: auto;
+    max-width:350px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+h4{color: white;
+    display: flex;
+    background-color: rgb(158, 132, 98);
+    border: 5px rgb(128, 93, 47) solid;
+    margin: auto;
+    justify-content: center;
+    width: 260px;
+    height: 27px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+div{
+    color: rgb(0, 0, 0);
+    display: flex;
+    background-color: rgb(196, 183, 154);
+    border: 5px rgb(158, 132, 98) solid;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top:30px ;
+margin-bottom: 30px;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 14pt;
+    }
+    
+    nav ul {display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+    border: 3px solid rgb(0, 0, 0);
+        margin: 20px;
+        margin-right: auto;
+        margin-left:auto ;
+        max-width: 800px;
+        border-radius: 18%;
+
+    }
+    
+    nav ul li {list-style: none;
+          margin: 4px;
+          text-align: center;
+          border-right: 20px rgb(0, 0, 0);
+          font-size: 16pt;
+    }
+    
+    nav ul li a:hover {color: rgb(163, 144, 108);
+        border-bottom: 2px wheat;
+        font-size: 18pt;
+    }
+    .beneficios{
+        padding: 22px;
+        justify-content: right;
+        border: 3px solid rgb(0, 0, 0);
+        margin: 20px;
+        margin-right: auto;
+        margin-left:auto ;
+        max-width: 800px;
+        border-radius: 18%;
+
+    }
+
+    img{display:flex ;
+         margin-right: auto;
+        margin-left:auto ;
+        max-width: 800px;
+        
+    }
+   
